@@ -71,7 +71,7 @@ Loading images via JavaScript module `import` is also supported.
 | Command | Description |
 |---------|-------------|
 | `npm install` | Install project dependencies |
-| `npm start` | Build project and open web server running project |
+| `npm start` | Build project and runs it on the browser |
 | `npm run build` | Builds code bundle with production settings (minification, uglification, etc..) |
 
 ## Writing Code
@@ -108,6 +108,7 @@ After you run the `npm run build` command, your code will be built into a single
 `dist/bundle.min.js` along with any other assets you project depended.
 
 At this point, you should find `index.html` and `bundle.min.js` files within the `dist` folder.
+Open the html file on the browser and have fun (use liveserver if you wish)
 
 <!-- CONTACT -->
 ## Contributors
